@@ -1,0 +1,88 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ChristmasIntroFrameBorder {
+    height: 250px;
+    width: 300px;
+    border: 1px solid #000;
+}
+
+#ChristmasIntroFrame {
+    opacity: 0;
+    height: 250px;
+    width: 300px;
+    /* background-color: #001E73; */
+    background-image: url("bg_300x250.jpg");
+}
+
+#CI_Frame3Cont,
+#CI_Frame2Cont,
+#CI_Frame1Cont {
+    width: 300px;
+    height: 250px;
+    top: 0;
+}
+
+#bestBuyLogo {
+left: 0;
+   top: 0;
+}
+#f2bg {opacity: 0;}
+
+#CI_Frame2CopyCont,
+#CI_Frame3CopyCont {
+    color: #fff;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+#CI_Frame2CopyCont {
+    left: 17px;
+    top: 57px;
+    width: 285px;
+    height: 130px;
+}
+
+#CI_Frame2Copy {
+    font-size: 24px;
+    line-height: 28px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+}
+
+#CI_Frame3CopyCont {
+    left: 17px;
+    top: 70px;
+    width: 285px;
+    height: 130px;
+}
+
+#CI_Frame3Copy {
+    font-size: 24px;
+    line-height: 28px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #ffe70b;
+    white-space: nowrap;
+}
+
+#decoration {
+    width: 300px;
+    left: 108px;
+    top: 87px;
+}
+
+#defaultImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    z-index: 100;
+}

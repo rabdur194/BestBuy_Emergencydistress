@@ -1,0 +1,36 @@
+#introFrame {
+	display: none;
+	background-image: url("../images/bg_160x600.jpg");
+	z-index: 20;
+	opacity: 0;
+	background-color: #ffffff;
+}
+
+#intro_frame2,
+#intro_frame3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#CI_Frame2Copy,
+#CI_Frame3Copy,
+#intro_headline1,
+#intro_headline2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1;
+}
+
+#CI_Frame3Copy,
+#intro_headline2 {
+	color: #ffe70b;
+}
+
+#intro_logo {
+	 position: absolute;
+	 top: 0; left: 0;
+}

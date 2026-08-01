@@ -1,0 +1,188 @@
+@font-face {
+	font-family: "HumanBBYWeb";
+	src: url("https://cdn.flashtalking.com/136864/HumanaBBY_2024_fontsRL/HumanBBY-55Regular-Web.woff2") format("woff2"),
+		url("https://cdn.flashtalking.com/136864/HumanaBBY_2024_fontsRL/HumanBBY-55Regular-Web.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HumanBBYWeb";
+	src: url("https://cdn.flashtalking.com/136864/HumanaBBY_2024_fontsRL/HumanBBY-75Bold-Web.woff2") format("woff2"),
+		url("https://cdn.flashtalking.com/136864/HumanaBBY_2024_fontsRL/HumanBBY-75Bold-Web.woff") format("woff");
+	font-weight: bold;
+	font-style: bold;
+}
+@font-face {
+	font-family: "HumanBBYWeb-medium";
+	src: url("https://cdn.flashtalking.com/136864/HumanaBBY_2024_fontsRL/HumanBBY-Web-65-Medium.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "HumanBBYWeb", Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	color: #000;
+}
+
+div {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#container,
+#container::after,
+.absolute {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#container,
+#container::after,
+.ad-size {
+	height: 600px;
+	width: 160px;
+}
+
+#container {
+	display: block;
+	cursor: pointer;
+	background-image: url("./../images/bg_160x600.jpg");
+	position: absolute;
+	overflow: hidden;
+	opacity: 0;
+}
+
+#container::after {
+	content: "";
+	pointer-events: none;
+	box-sizing: border-box;
+	border-color: inherit;
+	border-width: 1px;
+	border-style: solid;
+	position: absolute;
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+}
+
+#carousel {
+	background-color: #ffffff;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	bottom: 0px;
+	top: 95px;
+}
+
+#arrow_prev,
+#arrow_next {
+	cursor: pointer;
+	position: absolute;
+	z-index: 5;
+    width: 44px;
+    left: 58px;
+    top: 70px;
+}
+
+#arrow_next {
+	top: 419px;
+}
+
+#carousel_items {
+	overflow: hidden;
+	position: absolute;
+	z-index: 5;
+	height: 100%;
+	width: 100%;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.product .product-image {
+	flex-grow: 0;
+	flex-shrink: 0;
+	margin-top: 122px;
+    height: 120px;
+    width: 140px;
+}
+
+.product .product-info {
+	display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+	padding-right: 5px;
+    padding-left: 10px;
+    margin-top:  16px;
+    height: auto;
+    width: 100%;
+}
+
+.product .product-price {
+	color: #000;
+	/* color: #2c363e; */
+	font-size: 24.2px;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+}
+
+.product .product-price .dollar-sign {
+	/* font-size: 1.05em; */
+	padding-right: 1px;
+}
+
+.product .product-desc {
+	font-size: 11px;
+	line-height: 1.3em;
+	margin-bottom: 6px;
+	margin-top: 3px;
+	max-height: 45px;
+	max-width: 100%;
+	height: 45px;
+}
+
+.product .product-cta {
+	font-family: "HumanBBYWeb-medium";
+	cursor: pointer;
+	border-radius: 5px 5px;
+	background-color: #FFF200;
+	border: 1px solid #FFF200;
+	text-align: center;
+	font-size: 13px;
+	padding: 5px 6px;
+	letter-spacing: -0.02em;
+	margin-right: 65px;
+}
+
+#legal {
+    color: #000000;
+    font-size: 8.5px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+
+#CI_Frame2Copy{
+	position: absolute;
+	top: 160px;
+	left: 40px;
+}
+
+
+#f2bg {opacity: 0;}

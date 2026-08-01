@@ -1,0 +1,41 @@
+#introFrame {
+	display: none;
+	background-image: url(../images/FY2024_bg_300x600.jpg);
+	z-index: 20;
+	opacity: 0;
+	background-color: #fff;
+}
+#testImg{
+	display: none;
+}
+
+#intro_frame2,
+#intro_frame3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#CI_Frame2Copy,
+#CI_Frame3Copy,
+#intro_headline1,
+#intro_headline2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1;
+}
+
+#CI_Frame3Copy,
+#intro_headline2 {
+	color: #ffe70b;
+}
+
+#intro_logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
