@@ -1,0 +1,50 @@
+#introFrame {
+	display: none;
+	/* background-color: #001e73; */
+	background-image: url("../images/bg_320x480.png");
+	z-index: 20;
+	opacity: 0;
+}
+#testImg{
+	display: none;
+}
+
+#intro_frame2,
+#intro_frame3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#CI_Frame2Copy,
+#CI_Frame3Copy,
+#intro_headline1,
+#intro_headline2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1;
+}
+
+#CI_Frame3Copy,
+#intro_headline2 {
+	color: #ffe70b;
+}
+
+#intro_logo {
+	position: absolute;
+    height: auto;
+    width: 151px;
+    left: 93px;
+    top: 190px;
+}
+#intro_icon1{
+	width: auto;
+	height: auto;
+}
+#CI_Frame2Copy {
+	position: absolute;
+	top: 198px;
+}

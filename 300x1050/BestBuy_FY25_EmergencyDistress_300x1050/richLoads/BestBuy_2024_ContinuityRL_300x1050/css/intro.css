@@ -1,0 +1,47 @@
+#introFrame {
+	display: none;
+	/* background-color: #001e73; */
+	background-image: url("../images/bg_300x1050.png");
+	z-index: 20;
+	opacity: 0;
+}
+
+#intro_frame2,
+#intro_frame3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#CI_Frame2Copy,
+#CI_Frame3Copy,
+#intro_headline1,
+#intro_headline2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1;
+}
+
+#CI_Frame3Copy,
+#intro_headline2 {
+	color: #ffe70b;
+}
+
+#intro_logo {
+	position: absolute;
+    height: auto;
+    width: 185px;
+    left: 70px;
+    top: 471px;
+}
+
+#CI_Frame2Copy {
+    position: absolute;
+    top: 473px;
+    font-size: 60px;
+    left: 45px;
+    line-height: .5em;
+}
